@@ -1,7 +1,5 @@
 {
   "name": "personal-site",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -b master -d build",
   "homepage": "https://nating.github.io",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   }
 }
