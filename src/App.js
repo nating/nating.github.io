@@ -9,6 +9,10 @@ import vdp from './vdp2.svg';
 import './App.css';
 
 class App extends Component {
+    componentDidMount(){
+      document.title = "GN"
+    }
+
   render() {
     return (
       <div className="App">
