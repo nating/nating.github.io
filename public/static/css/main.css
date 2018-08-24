@@ -1,0 +1,11 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 20pt;
+    height:100vh;
+}
+
+h1{
+  font-size: 35pt;
+}
