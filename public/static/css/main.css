@@ -1,11 +1,85 @@
 body {
     font-family: sans-serif;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 20pt;
     height:100vh;
 }
 
 h1{
-  font-size: 35pt;
+  font-family: Futura-bold;
+  font-size: 100pt;
+}
+
+ul{
+  padding: 0px;
+  list-style: none;
+}
+
+li{
+  margin: 0 0 40px 0;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo{
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dab{
+  height:150px;
+  border-color: white;
+  border-style: solid;
+  border-width: 11px;
+}
+
+.spinning {
+  -webkit-animation: App-logo-spin infinite 20s linear;
+          animation: App-logo-spin infinite 20s linear;
+}
+
+@-webkit-keyframes App-logo-spin {
+  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@keyframes App-logo-spin {
+  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+/* Rainbow css lol */
+.wrapper {
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 100% 300%;
+
+-webkit-animation: rainbow 8s ease infinite;
+-z-animation: rainbow 8s ease infinite;
+-o-animation: rainbow 8s ease infinite;
+  animation: rainbow 8s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
 }
