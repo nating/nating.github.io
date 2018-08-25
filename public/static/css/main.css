@@ -25,6 +25,23 @@ a, a:hover, a:focus, a:active {
     color: inherit;
 }
 
+.row{
+  height:100%;
+}
+
+.left-table{
+  height:80%;
+  width:100%;
+}
+
+.right-table{
+   height:90%;
+}
+
+.name{
+  font-size:15pt;
+}
+
 .logo{
   height: 50px;
   margin-left: 10px;
@@ -33,19 +50,4 @@ a, a:hover, a:focus, a:active {
 
 .dab{
   height:150px;
-}
-
-.spinning {
-  -webkit-animation: App-logo-spin infinite 20s linear;
-          animation: App-logo-spin infinite 20s linear;
-}
-
-@-webkit-keyframes App-logo-spin {
-  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
-  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
-}
-
-@keyframes App-logo-spin {
-  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
-  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
 }
