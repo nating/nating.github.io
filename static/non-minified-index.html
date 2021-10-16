@@ -47,19 +47,6 @@
                 <td>
                   <ul>
                     <li>
-                      <p>Doing a Masters in Computer Science.</p>
-                    </li>
-                    <li>
-                      <p>Developing full stack at
-                        <a href="https://evopass.io">
-                          Evopass.
-                        </a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>Living in the Silicon Docks.</p>
-                    </li>
-                    <li>
                       <img src="./static/img/skeleton-dab.svg" class="logo dab" alt="A really cool skeleton dabbing.">
                     </li>
                   </ul>
@@ -70,6 +57,12 @@
         </div>
 
       </div>
-
+      <script>
+        /* Enforce HTTPS x */
+        var loc = window.location.href+'';
+        if (loc.indexOf('http://')==0){
+            window.location.href = loc.replace('http://','https://');
+        }
+      </script>
   </body>
 </html>
