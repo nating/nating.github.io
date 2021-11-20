@@ -1,7 +1,5 @@
 body {
     font-family: sans-serif;
-    background-color: white;
-    color: black;
     font-size: 20pt;
     height:100vh;
 }
@@ -43,11 +41,36 @@ a, a:hover, a:focus, a:active {
 }
 
 .logo{
+  display: inline-block;
   height: 50px;
+  width: 50px;
   margin-left: 10px;
   margin-right: 10px;
+  mask-size: cover;
+  background: red;
+}
+
+.github-logo{
+  mask: url(https://nating.io/static/img/github.svg);
+}
+
+.linkedin-logo{
+  mask: url(https://nating.io/static/img/linkedin.svg);
 }
 
 .dab{
   height:150px;
+  width: 110px;
+  mask: url(https://nating.io/static/img/skeleton-dab.svg);
+  mask-size: cover;
+}
+
+@media (prefers-color-scheme: dark) {
+  body { background-color: black; color: white; }
+  .logo   { background: white; }
+}
+
+@media (prefers-color-scheme: light) {
+  body   { background-color: white; color: black; }
+  .logo   { background: black; }
 }
