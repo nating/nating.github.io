@@ -46,21 +46,29 @@ a, a:hover, a:focus, a:active {
   width: 50px;
   margin-left: 10px;
   margin-right: 10px;
+  -webkit-mask-size: cover;
   mask-size: cover;
   background: red;
 }
 
 .github-logo{
+  -webkit-mask-image: url(https://nating.io/static/img/github.svg);
+  mask-image: url(https://nating.io/static/img/github.svg);
   mask: url(https://nating.io/static/img/github.svg);
 }
 
 .linkedin-logo{
+  -webkit-mask-image: url(https://nating.io/static/img/linkedin.svg);
+  mask-image: url(https://nating.io/static/img/linkedin.svg);
   mask: url(https://nating.io/static/img/linkedin.svg);
 }
 
 .dab{
   height:150px;
   width: 110px;
+  -webkit-mask-image: url(https://nating.io/static/img/skeleton-dab.svg);
+  -webkit-mask-size: cover;
+  mask-image: url(https://nating.io/static/img/skeleton-dab.svg);
   mask: url(https://nating.io/static/img/skeleton-dab.svg);
   mask-size: cover;
 }
